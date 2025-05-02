@@ -15,26 +15,6 @@ Este repositório contém anotações e insights obtidos durante a prática apro
   - Python 3.x e SDK "azure-cognitiveservices-speech"
   - Bibliotecas Python: `azure-ai-textanalytics`, `pyaudio` (se necessário)
 
-## Estrutura do Repositório
-
-\`\`\`
-/ai-fundamentals-practice
-│
-├── labs
-│   ├── 09-speech
-│   │   ├── speech_samples
-│   │   └── notes.md
-│   └── 06-text-analysis
-│       ├── text_samples
-│       └── notes.md
-│
-├── scripts
-│   ├── speech_to_text.py
-│   ├── text_to_speech.py
-│   └── text_analysis.py
-│
-└── README.md
-\`\`\`
 
 ## Lab 1: Azure Speech Studio (Speech Fundamentals)
 
@@ -116,13 +96,4 @@ Nesta seção, exploramos o Text Analytics para:
 - **Automação**: Considere criar pipelines CI/CD que validem e implantem suas funções de IA.
 - **Segurança**: Armazene chaves de forma segura, usando Azure Key Vault sempre que possível.
 
-## Próximos Passos
 
-- Explorar **Custom Neural Voice** para síntese mais natural.
-- Testar **Conversational Language Understanding (LUIS)** integrado com o Bot Framework.
-- Avaliar **Embeddings** de linguagem para tarefas avançadas de similaridade e recomendação.
-- Documentar benchmarks de latência e custo para cada serviço.
-
----
-
-*Este README é um guia vivo: atualize suas notas e insights conforme aprofunda seu conhecimento nas ferramentas Azure Cognitive Services.*
